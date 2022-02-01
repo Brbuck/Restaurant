@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    height: 200px;
+   /*  position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -30; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+    background-color: #caaea5;
+
+    span{
+        margin: 15px 0px;
+    }
+
+    div{
+        span{
+            font-size: 20px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    }
+}

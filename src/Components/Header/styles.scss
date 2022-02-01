@@ -48,7 +48,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: #caaea5;
+        opacity: 0.8;
 
         a {
             color: #fff;
@@ -58,7 +59,7 @@
             text-align: center;
 
             &:hover {
-                color: orange;
+                color: #808000;
             }
 
            

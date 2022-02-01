@@ -39,12 +39,12 @@ function Header() {
             </div>
             {
                 click &&
-                <nav>
-                    <Link to="#"> Reservations</Link>
-                    <Link to="#"> Menu & Wine list </Link>
-                    <Link to="#"> Gift a Francescana Experience</Link>
-                    <Link to="#"> Events & Banqueting  </Link>
-                    <Link to="#"> Location </Link>
+                <nav onClick={togleMenu}>
+                    <Link to="reservation"> Reservations</Link>
+                    <Link to="menu-wine-list"> Menu & Wine list </Link>
+                    <Link to="gift-a-francescana-experience"> Gift a Francescana Experience</Link>
+                    <Link to="events-banqueting"> Events & Banqueting  </Link>
+                    <Link to="location"> Location </Link>
                 </nav>
             }
         </header>
