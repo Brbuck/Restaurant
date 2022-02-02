@@ -17,8 +17,9 @@
         background-color: #111;
     }
 
-    @media (max-width: 500px) {
-        padding: 6px 20px;
+    @media (max-width: 930px) {
+        padding: 6px 80px;
+        justify-content: space-between;
     }
 
     .nav_menu {
@@ -49,7 +50,7 @@
         justify-content: center;
         align-items: center;
         background-color: #caaea5;
-        opacity: 0.8;
+        opacity: 0.9;
 
         a {
             color: #fff;
@@ -62,9 +63,7 @@
                 color: #808000;
             }
 
-           
-
-            @media (max-width: 765px) {
+            @media (max-width: 820px) {
                 font-size: 1.7rem;
             }
 
@@ -77,3 +76,5 @@
         }
     }
 }
+
+

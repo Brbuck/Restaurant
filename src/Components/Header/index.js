@@ -28,7 +28,7 @@ function Header() {
     }
 
     return (
-        <header className={scroll ? 'header active' : 'header'} >
+        <header className={scroll ? 'header active' : 'header'} onClick={togleMenu} >
             <div className='nav_menu'>
                 <Link to="/" className='icon'><RiRestaurantFill /> Bel caffè</Link>
             </div>
@@ -39,7 +39,7 @@ function Header() {
             </div>
             {
                 click &&
-                <nav onClick={togleMenu}>
+                <nav >
                     <Link to="reservation"> Reservations</Link>
                     <Link to="menu-wine-list"> Menu & Wine list </Link>
                     <Link to="gift-a-francescana-experience"> Gift a Francescana Experience</Link>
